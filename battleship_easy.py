@@ -1,4 +1,4 @@
-from random import randint  # randint generates a random interger in the range provided
+from random import randint  # randint generates a random integer in the range provided
 
 def print_board(board): 
     for row in board:
