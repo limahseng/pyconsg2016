@@ -42,4 +42,4 @@ while turn < 4:
             print_board(board)
         if turn == 4: # after 3 tries (turn starts from 1)
             print("Game Over")
-            print("The Battleship is in row", ship_row, ", col", ship_col)
+            print("The Battleship is in row", ship_row + 1, ", col", ship_col + 1)
